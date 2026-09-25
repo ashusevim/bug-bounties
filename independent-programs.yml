@@ -1530,6 +1530,25 @@ companies:
   - '*swag'
   program_type: bounty
 
+- company: Gasunie
+  url: https://www.gasunie.nl/en/responsible-disclosure
+  contact: mailto:responsibledisclosure@gasunie.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: partial
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: The Dutch gas infrastructure company takes vulnerability reports through a form on its responsible disclosure page, and follows the NCSC's recommendations for handling them. Reports get a reply within five working days with an assessment and an expected fix date, and disclosure timing is agreed with the reporter. Gasunie won't take legal action against reporters who stay within the policy, barring exceptional cases, and in most cases gives a reward or other recognition.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - automated_scanning
+  response_sla_days: 5
+  standards:
+  - Dutch NCSC guidelines
+
 - company: geckoboard.com
   url: https://support.geckoboard.com/en/articles/6055718-report-a-security-vulnerability-and-responsible-disclosure-policies
   rewards:
@@ -1612,6 +1631,26 @@ companies:
   - phishing
   - physical_access
   hall_of_fame_url: https://www.joindeed.com/security
+
+- company: Groningen Seaports
+  url: https://www.groningen-seaports.com/responsible-disclosure/
+  contact: mailto:security@groningen-seaports.com
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  allows_disclosure: true
+  preferred_languages: Dutch, English
+  description: The port authority for Delfzijl and Eemshaven takes vulnerability reports by email, under a responsible disclosure policy based on the NCSC guideline. Reports can be made anonymously or under a pseudonym and are kept confidential. Groningen Seaports aims to respond within five working days with an assessment and an expected fix date, keeps reporters updated, takes no legal action against those who follow the rules, and asks to be involved in any publication once the issue is fixed.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - physical_access
+  - brute_force
+  out_of_scope:
+  - Microsoft Office 365 environment, which should be reported to Microsoft
+  response_sla_days: 5
+  standards:
+  - Dutch NCSC guidelines
 
 - company: Hadrian
   url: https://hadrian.io/vulnerability-disclosure-policy
@@ -3247,6 +3286,29 @@ companies:
   - Unvalidated automated tool reports.
   response_sla_days: 2
 
+- company: ProRail
+  url: https://www.prorail.nl/responsible-disclosure
+  contact: mailto:responsible-disclosure@prorail.nl
+  rewards:
+  - '*recognition'
+  program_type: vdp
+  status: active
+  safe_harbor: full
+  preferred_languages: Dutch
+  description: The Dutch rail infrastructure manager publishes a responsible disclosure statement in Dutch. Reports go by email with enough detail to reproduce the issue, and can be made anonymously. ProRail replies within three working days with an assessment and an expected fix date, keeps the reporter updated, takes no legal action against anyone who follows the rules, and names the finder in public fix notes if they want. The policy is not an invitation to actively scan its systems.
+  excluded_methods:
+  - dos
+  - social_engineering
+  - brute_force
+  out_of_scope:
+  - Comments on ProRail's services
+  - Comments or questions about the availability of its services
+  - Fraud or suspected fraud
+  - Suspected fake or phishing emails
+  - Viruses or malware
+  - Complaints
+  response_sla_days: 3
+
 - company: proxidize.com
   url: https://proxidize.com/legal/vulnerability-disclosure-policy/
   contact: mailto:security@proxidize.com
@@ -4633,6 +4695,17 @@ companies:
     low: 50
   response_sla_days: 5
   disclosure_timeline_days: 90
+
+- company: Waternet
+  url: https://www.waternet.nl/en/service-and-contact/help-us-improve-our-service/report-a-security-problem/
+  contact: https://www.waternet.nl/en/service-and-contact/help-us-improve-our-service/report-a-security-problem/
+  program_type: vdp
+  status: active
+  preferred_languages: Dutch, English
+  pgp_key: https://www.waternet.nl/securitytxt/pgp-key
+  description: The Dutch water company takes security reports through a form on its own site, under rules based on the NCSC guidelines. Reporters are asked to report quickly, include details such as IP addresses, log files and reproduction steps, and not exploit or publicly share the problem. Waternet investigates each report, contacts the reporter and agrees with them what happens if the issue is made public.
+  standards:
+  - Dutch NCSC guidelines
 
 - company: whatruns.com
   url: https://www.whatruns.com/bug-bounty
