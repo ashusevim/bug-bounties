@@ -134,10 +134,16 @@ companies:
   - '*bounty'
   managed: true
   domains:
+  - activate.3cx.com
   - apps.apple.com
   - apps.microsoft.com
+  - downloads-global.3cx.com
+  - mailproxy.3cx.com
   - play.google.com
   - portal.3cx.com
+  - repo.3cx.com
+  - rps.3cx.com
+  - wmr.3cx.net
 - company: 3DS OUTSCALE
   url: https://en.outscale.com/reporting-vulnerabilities/
   contact: mailto:bugbounty@outscale.com
@@ -650,6 +656,16 @@ companies:
   contact: https://agicap.com/en/bug-bounty/
   rewards:
   - '*bounty'
+- company: agile doyens
+  url: https://bugcrowd.com/engagements/agiledoyens-market
+  contact: https://bugcrowd.com/engagements/agiledoyens-market
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: AgilePulse Marketplace Bug Bounty Program
   url: https://bugcrowd.com/engagements/agile-pulse
   contact: https://bugcrowd.com/engagements/agile-pulse
@@ -921,10 +937,17 @@ companies:
   - myaccount.ad.nl
 - company: Algolia
   url: https://www.algolia.com/security
+  handle: algolia
   contact: https://hackerone.com/algolia/reports/new
   rewards:
   - '*bounty'
   - '*recognition'
+  managed: false
+  domains:
+  - algolia.com
+  - algolia.net
+  - algolianet.com
+  - dashboard.algolia.com
 - company: Algorand
   url: https://bugcrowd.com/algorand
   contact: https://bugcrowd.com/algorand/report
@@ -1141,7 +1164,7 @@ companies:
   rewards:
   - '*bounty'
   - '*swag'
-  managed: false
+  managed: true
   domains: &id001
   - amazon.ae
   - amazon.ca
@@ -1175,7 +1198,7 @@ companies:
   rewards:
   - '*bounty'
   - '*swag'
-  managed: false
+  managed: true
   domains: *id001
 - company: AMD
   url: https://www.amd.com/en/corporate/product-security-incident-response-team
@@ -3978,6 +4001,14 @@ companies:
   currency: EUR
   domains:
   - challenge-0826.challenges.intigriti.io
+- company: Challenge 0926
+  url: https://www.intigriti.com/programs/intigriti/challenge0926/detail
+  handle: challenge0926
+  contact: https://www.intigriti.com/programs/intigriti/challenge0926/detail
+  rewards: []
+  currency: EUR
+  domains:
+  - challenge-0926.challenges.intigriti.io
 - company: Chameleon
   url: https://www.trychameleon.com/security/disclosure
   contact: https://www.trychameleon.com/security/disclosure
@@ -4471,7 +4502,7 @@ companies:
   rewards:
   - '*bounty'
   - '*recognition'
-  managed: true
+  managed: false
   domains:
   - api.cloudflare.com
   - cloudflare.com
@@ -4763,9 +4794,11 @@ companies:
   - '*bounty'
 - company: Coindcx - Bug Bounty Program
   url: https://yeswehack.com/programs/coindcx-bug-bounty-program
+  handle: coindcx_vdp
   contact: https://yeswehack.com/programs/coindcx-bug-bounty-program
   rewards:
   - '*bounty'
+  managed: false
   max_payout: 2000.0
   domains:
   - api.coindcx.com
@@ -6104,6 +6137,16 @@ companies:
   max_payout: 1500.0
   domains:
   - marketplace.atlassian.com
+- company: Deview Studios Marketplace Managed Bug Bounty Engagement
+  url: https://bugcrowd.com/engagements/deviewstudios-market
+  contact: https://bugcrowd.com/engagements/deviewstudios-market
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: Deviniti
   url: https://bugcrowd.com/engagements/deviniti
   contact: https://bugcrowd.com/engagements/deviniti
@@ -6948,7 +6991,6 @@ companies:
   - '*bounty'
   managed: true
   domains:
-  - cloud.elastic.co
   - ela.st
   - elastic.co
   - elastic.dev
@@ -6973,6 +7015,7 @@ companies:
   - elstc.co
   - eops.nl
   - estccdn.com
+  - found.io
 - company: Election Assistance Commission
   url: https://www.eac.gov/vulnerability-disclosure-policy
   contact: mailto:security@eac.gov
@@ -8332,7 +8375,7 @@ companies:
   - '*bounty'
   managed: true
   safe_harbor: full
-  max_payout: 15000.0
+  max_payout: 7500.0
   domains:
   - fivetran.com
 - company: Flamingo Finance
@@ -9838,6 +9881,16 @@ companies:
   url: https://www.myhermes.co.uk/responsible-disclosure-policy
   contact: mailto:infosec@hermes-europe.co.uk
   rewards: []
+- company: HeroCoders Apps
+  url: https://bugcrowd.com/engagements/herocoders
+  contact: https://bugcrowd.com/engagements/herocoders
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: partial
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: Heroku
   url: https://www.heroku.com/policy/security
   contact: mailto:bugbountymanager@salesforce.com
@@ -11765,6 +11818,16 @@ companies:
   - kaleido.ai
   - remove.bg
   - unscreen.com
+- company: Kaltura
+  url: http://kaltura.com
+  handle: kaltura
+  contact: https://hackerone.com/kaltura
+  rewards:
+  - '*bounty'
+  managed: false
+  domains:
+  - kmc.kaltura.com
+  - mediaspace.kaltura.com
 - company: Kamino
   url: https://immunefi.com/bug-bounty/kamino/
   contact: https://immunefi.com/bug-bounty/kamino/
@@ -11991,6 +12054,34 @@ companies:
   contact: https://www.intigriti.com/programs/kinepolis/website/detail
   rewards:
   - '*bounty'
+  max_payout: 5000.0
+  currency: EUR
+  domains:
+  - booking.mjrtheatres.com
+  - business.kinepolis.be
+  - business.kinepolis.lu
+  - business.kinepolis.nl
+  - com.inthepocket.kinepolis
+  - egaming.kinepolis.es
+  - extras-acc.landmarkcinemas.com
+  - extras.landmarkcinemas.com
+  - identityserver-acc.landmarkcinemas.com
+  - identityserver.landmarkcinemas.com
+  - kinepolis-studio.be
+  - kinepolis.be
+  - kinepolis.biz
+  - kinepolis.ch
+  - kinepolis.com
+  - kinepolis.es
+  - kinepolis.fr
+  - kinepolis.lu
+  - kinepolis.megatix.be
+  - kinepolis.nl
+  - klubcinema.fr
+  - landmarkcinemas.com
+  - luxfilmfestfilms.megatix.be
+  - luxfilmfestproducts.megatix.be
+  - luxfilmfesttickets.megatix.be
 - company: KISS Investments
   url: https://kissinvestments.com/responsible-disclosure
   contact: mailto:security@kissinvestments.com
@@ -12378,27 +12469,27 @@ companies:
   - airtalk.appslatam.com
   - amelia.appslatam.com
   - andeslatam.tech
+  - apislatam.com
+  - aplicacioneslatam.com.ar
   - appslatam.com
+  - appslatamtravel.com
   - artifactoryrepo1.appslatam.com
   - autoemb.appslatam.com
   - beta.latampass.latam.com
   - chat.latamairlines.com
   - cosmos-vision.appslatam.com
   - crew-wallet.intg.appslatam.com
+  - cuidomidestino.cl
+  - e-tam.com.br
   - ema.appslatam.com
   - gte.appslatam.com
+  - ladeco.cl
+  - lamchile.cl
+  - lan-airlines.com
+  - lan-chile.cl
+  - lan-chile.com
+  - lan-express.cl
   - lan.com
-  - lanchile.cl
-  - lanchile.com
-  - latam.com
-  - latamairlines.com
-  - lataminit.appslatam.com
-  - latampass.cl
-  - latampass.com
-  - latamvideos.appslatam.com
-  - nimbus2.appslatam.com
-  - partnercenter.intg.appslatam.com
-  - partnerportal.intg.appslatam.com
 - company: Latent Patterns
   url: https://latentpatterns.com/security
   contact: mailto:security@latentpatterns.com
@@ -12766,6 +12857,38 @@ companies:
   max_payout: 1500.0
   domains:
   - marketplace.atlassian.com
+- company: Live Nation
+  url: http://livenation.com
+  handle: live_nation
+  contact: https://hackerone.com/live_nation
+  rewards:
+  - '*bounty'
+  managed: true
+  domains:
+  - app.livenation.com
+  - app.ticketmaster.ca
+  - app.ticketmaster.co.uk
+  - app.ticketmaster.com
+  - app.ticketmaster.com.au
+  - app.ticketmaster.com.mx
+  - app.ticketmaster.eu
+  - app.ticketmaster.ie
+  - apps.apple.com
+  - dk.royalarena.app
+  - frontgatetickets.com
+  - lineup.com.mx
+  - livenation.co.uk
+  - livenation.com
+  - livenation.me
+  - onthewaterfrontfestival.com
+  - royalarena.dk
+  - signup.ticketmaster.com
+  - ticketmaster.ca
+  - ticketmaster.co.uk
+  - ticketmaster.com
+  - ticketmaster.com.br
+  - ticketmaster.com.mx
+  - ticketmaster.de
 - company: Liveclicker
   url: https://www.liveclicker.com/trust/report-a-vulnerability/
   contact: https://www.liveclicker.com/trust/report-a-vulnerability/
@@ -13283,7 +13406,7 @@ companies:
   rewards:
   - '*bounty'
   - '*recognition'
-  managed: false
+  managed: true
   domains:
   - blog.malwarebytes.com
   - cloud.malwarebytes.com
@@ -14834,6 +14957,30 @@ companies:
   url: https://www.cyncsoftware.com/responsible-disclosure-policy.php
   contact: mailto:responsibledisclosure@cyncsoftware.com
   rewards: []
+- company: Nebius AI Vulnerability Disclosure
+  url: https://nebius.com
+  handle: nebius_ai_vdp
+  contact: https://hackerone.com/nebius_ai_vdp
+  rewards: []
+  managed: true
+  domains:
+  - api.nebius.cloud
+  - api.tokenfactory.nebius.com
+  - assets.nebius.com
+  - auth.nebius.com
+  - auth.tokenfactory.nebius.com
+  - careers.nebius.com
+  - console.eu.nebius.com
+  - console.nebius.com
+  - dev.nebius.com
+  - docs.nebius.com
+  - docs.tokenfactory.nebius.com
+  - github.com
+  - nebius.com
+  - static.nebius.com
+  - status.nebius.com
+  - sts.nebius.com
+  - tokenfactory.nebius.com
 - company: Needabreak
   url: https://needabreak.com/responsible-disclosure-policy/
   contact: mailto:responsibledisclosure@choicehotels.com
@@ -17625,6 +17772,16 @@ companies:
   url: https://www.predicagroup.com/cvd/
   contact: https://www.predicagroup.com/cvd/
   rewards: []
+- company: Presago Marketplace Bug Bounty Program
+  url: https://bugcrowd.com/engagements/presago
+  contact: https://bugcrowd.com/engagements/presago
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: Prevu3D
   url: https://www.federacy.com/prevu3d
   contact: https://www.federacy.com/prevu3d
@@ -18798,6 +18955,16 @@ companies:
   rewards: []
   safe_harbor: partial
   currency: GBP
+- company: Revyz - Marketplace Bug Bounty Program
+  url: https://bugcrowd.com/engagements/revyz
+  contact: https://bugcrowd.com/engagements/revyz
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: Rewind
   url: https://rewind.com/legal/vulnerability-disclosure-policy/
   contact: https://rewind.com/legal/vulnerability-disclosure-policy/
@@ -20271,6 +20438,16 @@ companies:
   contact: https://hackerone.com/smule
   rewards:
   - '*recognition'
+- company: Snapbytes Marketplace Managed Bug Bounty Engagement
+  url: https://bugcrowd.com/engagements/snapbytes-market
+  contact: https://bugcrowd.com/engagements/opus-guard-market
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: Snapchat
   url: https://hackerone.com/snapchat
   handle: snapchat
@@ -21328,7 +21505,7 @@ companies:
   contact: https://hackerone.com/syfe_bbp
   rewards:
   - '*bounty'
-  managed: false
+  managed: true
   domains:
   - alfred-uat-31.nonprod.syfe.com
   - alfred.syfe.com
@@ -22509,7 +22686,9 @@ companies:
   - issue-verify.alpha.canada.ca
   - notification.canada.ca
   - numerique.canada.ca
+  - staging.tracker.canada.ca
   - talent.canada.ca
+  - tracker.canada.ca
   - validate-email.cdssandbox.xyz
 - company: Treebal
   url: https://yeswehack.com/programs/treebal-the-eco-responsible-messaging
@@ -22712,19 +22891,18 @@ companies:
   contact: https://www.intigriti.com/programs/truelayer/truelayer/detail
   rewards:
   - '*bounty'
+  max_payout: 6000.0
+  min_payout: 75.0
   currency: EUR
   domains:
-  - checkout-playground.zimpler.com
-  - devdocs.zimpler.com
-  - identify.zimpler.com
-  - okta-oauth2.zimpler.com
-  - sandbox.zimpler.net
-  - staging.zimpler.net
-  - swish-playground.zimpler.com
-  - truelayer-sandbox.com
+  - onboarding-api.truelayer.com
+  - sftp.reports.truelayer.com
+  - shop-pay-app-api.truelayer.com
+  - shopify-admin.truelayer.com
+  - truelayer.cloud
   - truelayer.com
-  - zimpler-merchant.zimpler.com
-  - zimpler.net
+  - truelayer.io
+  - users-api.truelayer.com
 - company: TruFin
   url: https://immunefi.com/bug-bounty/trufin/
   contact: https://immunefi.com/bug-bounty/trufin/
@@ -23171,6 +23349,17 @@ companies:
   contact: mailto:security@unisynvoting.com
   rewards: []
   safe_harbor: partial
+- company: Unisys Managed Bug Bounty Engagement
+  url: https://bugcrowd.com/engagements/unisys-mbb-og
+  contact: https://bugcrowd.com/engagements/unisys-mbb-og
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 4500.0
+  domains:
+  - unifysquare.com
+  - unisys.com
 - company: United Airlines
   url: https://www.united.com/web/en-US/content/contact/bugbounty.aspx
   contact: mailto:bugbounty@united.com
@@ -23713,8 +23902,18 @@ companies:
   rewards: []
 - company: Vercel
   url: https://hackerone.com/vercel
+  handle: vercel
   contact: https://hackerone.com/vercel
-  rewards: []
+  rewards:
+  - '*bounty'
+  managed: true
+  domains:
+  - github.com
+  - v0.app
+  - v0.dev
+  - vercel.app
+  - vercel.com
+  - vercel.live
 - company: Vercel Open Source
   url: https://vercel.com/
   handle: vercel-open-source
@@ -23913,6 +24112,15 @@ companies:
   contact: mailto:infosec@vice.com
   rewards:
   - '*recognition'
+- company: Vico Marketplace Bug Bounty
+  url: https://bugcrowd.com/engagements/vicosoft
+  contact: https://bugcrowd.com/engagements/vicosoft
+  rewards:
+  - '*bounty'
+  managed: true
+  max_payout: 1500.0
+  domains:
+  - marketplace.atlassian.com
 - company: VidaXL Holding - Open Bug Bounty Program
   url: https://yeswehack.com/programs/vidaxl-holding-open-bug-bounty-program
   contact: https://yeswehack.com/programs/vidaxl-holding-open-bug-bounty-program
@@ -24221,6 +24429,20 @@ companies:
   contact: mailto:support@vpnarea.com
   rewards:
   - '*bounty'
+- company: VR Public Managed Bug Bounty Engagement
+  url: https://bugcrowd.com/engagements/vr-group-mbb-og1
+  contact: https://bugcrowd.com/engagements/bitgo-mbb-og-public
+  rewards:
+  - '*bounty'
+  managed: true
+  safe_harbor: full
+  max_payout: 4500.0
+  domains:
+  - app.bitgo-test.com
+  - app.bitgo.com
+  - bitgo.ae
+  - bitgo.com
+  - usdstandard.com
 - company: VRT
   url: https://www.vrt.be/en/responsible-disclosure-policy-english-version/
   handle: vrtnv
@@ -24748,6 +24970,7 @@ companies:
   domains:
   - api.wordpress.org
   - doaction.org
+  - github.com
   - mercantile.wordpress.org
   - planet.wordpress.org
   - wordcamp.org
@@ -24802,15 +25025,11 @@ companies:
   - bettersearchreplace.com
   - deliciousbrains.com
   - getflywheel.com
-  - localwp.com
-  - makeshift.film
   - my.wpengine.com
   - nitropack.io
-  - payments.wpengine.com
+  - spressforumstg.wpengine.com
   - studiopress.blog
   - studiopress.com
-  - torquemag.io
-  - velocitize.com
   - wpengine.com
   - wpengine.io
   - wpesvc.net
